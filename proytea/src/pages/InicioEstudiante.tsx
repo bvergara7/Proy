@@ -1,3 +1,6 @@
+// Importación de React y de los componentes necesarios de Ionic para la creación de la interfaz.
+// Además, se incluyen los iconos de Ionicons para enriquecer la experiencia visual.
+
 import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { 
@@ -12,6 +15,7 @@ import {
   bookOutline, menuOutline
 } from 'ionicons/icons';
 
+//Define la estructura de cada curso, incluyendo su nombre, código, progreso y otros detalles.
 interface CourseData {
   id: string;
   name: string;
@@ -81,6 +85,13 @@ const InicioEstudiante: React.FC = () => {
     }
   ]);
 
+
+// handleContinueActivity(): Función que simula continuar con la actividad de un curso específico.
+// handleViewInstructions(): Muestra las instrucciones del curso seleccionado.
+// handleQuickAccess(): Accede rápidamente a secciones como calendario o biblioteca, dependiendo de la opción seleccionada.
+// getIconComponent(): Devuelve el componente de ícono adecuado según el nombre del ícono proporcionado.
+// handleMenuNavigation(): Controla la navegación entre diferentes secciones de la aplicación (Inicio, Cursos, Comunicación, etc.).
+
   const handleContinueActivity = (courseId: string) => {
     console.log(`Continuando actividad del curso: ${courseId}`);
   };
@@ -130,6 +141,7 @@ const InicioEstudiante: React.FC = () => {
   };
 
   // Componente Header personalizado con menú hamburguesa
+  //Además incluye icono educativo.
   const CustomHeader: React.FC = () => (
     <IonHeader>
       <IonToolbar style={{ 
@@ -278,6 +290,9 @@ const InicioEstudiante: React.FC = () => {
     </IonCard>
   );
 
+// IonMenu: Menú lateral tipo hamburguesa que permite al usuario navegar entre secciones principales como "Inicio", 
+// "Mis Cursos", "Configuración" y "Ayuda". Cada item del menú tiene un icono y un estilo de resaltado 
+// para indicar qué sección está activa en ese momento.
   return (
     <IonApp>
       {/* Menú lateral tipo hamburguesa */}

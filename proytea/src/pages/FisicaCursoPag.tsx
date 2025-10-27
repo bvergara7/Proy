@@ -1,3 +1,5 @@
+// Importaciones necesarias de React, React Router y componentes de Ionic.
+// Incluye íconos de Ionicons para crear una interfaz moderna e interactiva.
 import React, { useState, useRef } from 'react';
 import { useHistory } from 'react-router-dom';
 import {
@@ -16,13 +18,16 @@ import {
 } from 'ionicons/icons';
 
 // Interfaces necesarias
+// Define las preferencias personalizables del usuario para el curso
+// como tamaño de texto, velocidad de audio, modo oscuro, etc.
 interface CourseSettings {
   fontSize: number;
   audioSpeed: number;
   darkMode: boolean;
   autoPlay: boolean;
 }
-
+//Estructura de cada lección del curso. 
+//Incluye texto, enlaces a audio, video e imágenes relacionadas, así como el estado de completado.
 interface LessonContent {
   id: string;
   title: string;
@@ -34,6 +39,12 @@ interface LessonContent {
   audioSrc?: string;
 }
 
+// Estados principales:
+// - selectedTab: controla la pestaña actual seleccionada en la interfaz.
+// - currentLesson: identifica la lección actual que se está mostrando.
+// - activeContentType: permite alternar entre texto, audio o video.
+// - showSettings / showInstructions: controlan la apertura de modales.
+// - audio y videoRefs: referencias para controlar manualmente la reproducción multimedia.
 const FisicaCursoPag: React.FC = () => {
     const history = useHistory();
     const [selectedTab, setSelectedTab] = useState<string>('cursos');
@@ -110,6 +121,18 @@ const FisicaCursoPag: React.FC = () => {
         audioSrc: '/src/audio/FisAudio3.mp3'
       }
     ]);
+
+// getCurrentLesson(): Obtiene el objeto de la lección actual a partir de su ID.
+// handleImageClick(): Abre un modal con una imagen ampliada.
+// handleVideoPlayPause() / handleAudioPlayPause(): Reproducen o pausan el contenido multimedia.
+// handleAudioTimeUpdate() / handleAudioLoaded(): Sincronizan el tiempo de reproducción y duración.
+// handleAudioSeek(): Permite saltar a un punto específico del audio.
+// formatTime(): Convierte segundos a formato mm:ss.
+// handleNextLesson() / handlePreviousLesson(): Cambian entre lecciones y detienen el contenido actual.
+// handleContentTypeChange(): Cambia entre modos de visualización (texto, audio, video).
+// handlePlayPause(): Controla la reproducción según el tipo de contenido seleccionado.
+// handleRepeat(): Reinicia el contenido actual.
+// handleRequestHelp(): Redirige al usuario a la sección de ayuda.
 
     const getCurrentLesson = (): LessonContent => {
       return lessonsData.find(lesson => lesson.id === currentLesson) || lessonsData[0];
@@ -844,7 +867,8 @@ const FisicaCursoPag: React.FC = () => {
         </div>
       );
     };
-    
+ // Muestra la imagen seleccionada en vista ampliada con opción de cerrar.
+
     const ImageModal: React.FC = () => (
       <IonModal isOpen={showImageModal} onDidDismiss={() => setShowImageModal(false)}>
         <IonHeader>
@@ -884,7 +908,8 @@ const FisicaCursoPag: React.FC = () => {
         </IonContent>
       </IonModal>
     );
-    
+
+    //Permite configurar las preferencias del usuario (texto, audio, autoplay).
    const SettingsModal: React.FC = () => (
         <IonModal isOpen={showSettings} onDidDismiss={() => setShowSettings(false)}>
           <IonHeader>
@@ -1032,7 +1057,8 @@ const FisicaCursoPag: React.FC = () => {
           </IonContent>
         </IonModal>
       );
-  
+
+  // InstructionsModal: Explica cómo usar la plataforma de forma interactiva y accesible.
       const InstructionsModal: React.FC = () => (
         <IonModal isOpen={showInstructions} onDidDismiss={() => setShowInstructions(false)}>
           <IonHeader>
@@ -1163,7 +1189,11 @@ const FisicaCursoPag: React.FC = () => {
             color="success"
           />
   
-          {/* Estilos CSS personalizados para estudiantes con TEA */}
+          {/* Estilos CSS personalizados para estudiantes con TEA, dichos estilos aplican 
+          transiciones suaves, accesibilidad visual (contrastes claros),
+         y se adaptan a pantallas pequeñas mediante media queries.
+         Se definen variables CSS globales de Ionic para mantener una paleta de colores coherente.*/}
+          
           <style>
             {`
               .ion-page {

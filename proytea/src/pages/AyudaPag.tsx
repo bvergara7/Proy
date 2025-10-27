@@ -1,3 +1,6 @@
+
+// Importaciones principales de React y componentes de Ionic
+// Incluye íconos, hooks de navegación y elementos visuales reutilizables
 import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { 
@@ -12,6 +15,8 @@ import {
   playOutline, documentTextOutline, calendarOutline, documentOutline, trophyOutline,
   bookOutline, menuOutline, videocamOutline, mailOutline, closeOutline
 } from 'ionicons/icons';
+
+// Definición de interfaces para tipar los datos de categorías, FAQs, tutoriales y videos
 
 interface CategoryData {
   id: string;
@@ -40,6 +45,8 @@ interface VideoData {
   description: string;
   videoPath: string;
 }
+
+// Estado para controlar la pestaña seleccionada y la navegación
 
 const AyudaEstudiante: React.FC = () => {
   const history = useHistory();

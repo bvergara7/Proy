@@ -211,7 +211,7 @@ const InicioCursosEstudiante: React.FC = () => {
     </IonHeader>
   );
 
-  // Componente mejorado para tarjetas de curso
+  // Componente para tarjetas de curso
   const CourseCard: React.FC<{ course: CourseData }> = ({ course }) => (
     <IonCard style={{ 
       margin: '16px 0', 

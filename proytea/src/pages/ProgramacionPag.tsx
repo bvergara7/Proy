@@ -1,3 +1,5 @@
+// Importación de React y de componentes de Ionic necesarios para la creación de la interfaz de usuario.
+// Además, se importan los íconos de Ionicons para enriquecer la interacción visual de la app.
 import React, { useState, useRef } from 'react';
 import { useHistory } from 'react-router-dom';
 import {
@@ -15,6 +17,9 @@ import {
 } from 'ionicons/icons';
 
 // Interfaces necesarias
+// - CourseSettings: Configuración del curso, que incluye tamaño de texto, velocidad de audio, modo oscuro y autoplay.
+// - LessonContent: Define cada lección con su tipo (texto, audio, video), contenido y estado de finalización.
+
 interface CourseSettings {
   fontSize: number;
   audioSpeed: number;
@@ -33,6 +38,17 @@ interface LessonContent {
   audioSrc?: string;
 }
 
+// Estados:
+// - selectedTab: Pestaña activa en la interfaz.
+// - currentLesson: Lección actual que se está mostrando.
+// - showSettings: Estado que controla si se muestra el modal de configuración del curso.
+// - showInstructions: Estado que controla si se muestra el modal de instrucciones.
+// - showToast: Controla la visibilidad de los mensajes de tipo toast para notificaciones rápidas.
+// - activeContentType: Tipo de contenido actual visible (texto, audio, video).
+// - isPlaying: Estado de si el contenido multimedia (audio/video) está en reproducción.
+// - showImageModal: Controla la visibilidad del modal de imagen ampliada.
+// - currentAudioTime y audioDuration: Controlan la posición actual y duración del audio.
+// - videoRef y audioRef: Referencias para controlar la reproducción del video y audio.
 const ProgramacionCursoPag: React.FC = () => {
   const history = useHistory();
   const [selectedTab, setSelectedTab] = useState<string>('cursos');
@@ -135,16 +151,17 @@ const ProgramacionCursoPag: React.FC = () => {
       audioSrc: '/src/audio/ProgAudio5.mp3'
     }
   ]);
-
+ //Obtiene la lección actual a partir de la lección seleccionada.
   const getCurrentLesson = (): LessonContent => {
     return lessonsData.find(lesson => lesson.id === currentLesson) || lessonsData[0];
   };
-
+  //Abre una ventana modal para ver una imagen ampliada.
   const handleImageClick = (imageUrl: string) => {
     setSelectedImage(imageUrl);
     setShowImageModal(true);
   };
-  
+  // handleVideoPlayPause() 
+  // handleAudioPlayPause(): Controlan la reproducción/pausa de los elementos multimedia.
   const handleVideoPlayPause = () => {
     if (videoRef.current) {
       if (videoRef.current.paused) {
@@ -168,7 +185,8 @@ const ProgramacionCursoPag: React.FC = () => {
       }
     }
   };
-
+// handleAudioTimeUpdate() / handleAudioLoaded(): Actualizan el tiempo de reproducción y duración del audio.
+// handleAudioSeek(): Permite al usuario saltar a un punto específico del audio.
   const handleAudioTimeUpdate = () => {
     if (audioRef.current) {
       setCurrentAudioTime(audioRef.current.currentTime);
@@ -194,7 +212,8 @@ const ProgramacionCursoPag: React.FC = () => {
     const secs = Math.floor(seconds % 60);
     return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
   };
-
+// handleNextLesson() / handlePreviousLesson(): 
+// Cambian entre las lecciones del curso, mostrando un mensaje de avance.
   const handleNextLesson = () => {
     const currentIndex = lessonsData.findIndex(lesson => lesson.id === currentLesson);
     if (currentIndex < lessonsData.length - 1) {
@@ -235,7 +254,8 @@ const ProgramacionCursoPag: React.FC = () => {
       }
     }
   };
-
+  
+  //Cambia entre los modos de contenido (texto, audio, video) y actualiza el mensaje de estado.
   const handleContentTypeChange = (type: 'text' | 'audio' | 'video') => {
     setActiveContentType(type);
     
@@ -278,12 +298,17 @@ const ProgramacionCursoPag: React.FC = () => {
     setToastMessage('Repitiendo contenido actual');
     setShowToast(true);
   };
-
+  
+  //Redirige al usuario a la sección de ayuda.
   const handleRequestHelp = () => {
     history.push('/Ayuda');
   };
 
   const CustomHeader: React.FC = () => (
+
+// Los estilos aplicados son personalizados para mejorar la accesibilidad y experiencia visual de los estudiantes.
+// Se utilizan gradientes de color en algunos componentes como el encabezado y los botones para dar un aspecto moderno y visualmente atractivo.
+// Además, se aplica un diseño con sombras sutiles para los cards y botones para una mejor visibilidad y estética.
         <div style={{ 
           padding: '16px',
           background: 'linear-gradient(135deg, #7db8a8 0%, #4a90c2 100%)',
