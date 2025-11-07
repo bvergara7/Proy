@@ -1,8 +1,8 @@
-**Tema de Proyecto: Diseño de Experiencia de Usuario Centrado en Personas con Trastorno del Espectro Autista (TEA)**
+## **Tema de Proyecto: Diseño de Experiencia de Usuario Centrado en Personas con Trastorno del Espectro Autista (TEA)**
 
 Integrante: Benjamín Antonio Vergara Urtubia
 
-**Descripción del Proyecto**
+## **Descripción del Proyecto**
 
 Este proyecto corresponde al desarrollo del frontend de una plataforma educativa diseñada para estudiantes universitarios con Trastorno del Espectro Autista (TEA).
 El objetivo principal es construir una interfaz accesible, estructurada y personalizable, fundamentada en principios de usabilidad, accesibilidad cognitiva y Diseño Centrado en el Usuario (DCU).
@@ -10,7 +10,7 @@ El objetivo principal es construir una interfaz accesible, estructurada y person
 La plataforma incorpora características que responden a dificultades comunes de usuarios TEA, tales como sensibilidad sensorial, necesidad de estructura, claridad lingüística y consistencia visual.
 El sistema desarrollado consiste en un prototipo funcional que incluye pantallas de navegación, personalización, visualización de cursos, contenido académico, comunicación aumentativa y un módulo de ayuda, todas construidas a partir de principios obtenidos de literatura científica y evaluaciones participativas.
 
-**Principales Funcionalidades (Frontend)**
+## **Principales Funcionalidades (Frontend)**
 
 Inicio y Visualización de Cursos:
 La pantalla inicial presenta tarjetas claras con información del curso, como nombre, sigla y descripción. Incluye un indicador visual del progreso académico. La navegación es directa y evita elementos innecesarios para no generar sobrecarga cognitiva. Su estructura favorece que el estudiante identifique rápidamente su avance y pueda acceder a los contenidos sin confusión.
@@ -31,7 +31,7 @@ Menú de Navegación:
 El menú mantiene una estructura fija y consistente en todas las pantallas. Permite acceder a Inicio, Cursos, Contenido, Configuración, Comunicación y Ayuda. Su organización evita la desorientación y facilita el movimiento por la plataforma.
 El enfoque es mantener predictibilidad y continuidad dentro de la experiencia.
 
-**Fundamentos del Diseño**
+# **Fundamentos del Diseño**
 
 El desarrollo del frontend se basó en principios derivados de:
 
@@ -58,29 +58,29 @@ Estos fundamentos aseguran:
 
 - Navegación simple y predecible
 
-- pciones de personalización adaptables
+- Opciones de personalización adaptables
 
-Tecnologías Utilizadas
+# Tecnologías Utilizadas
 
-[TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
+![TypeScript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
 
-[Nodejs](https://img.shields.io/npm/v/npm.svg?logo=nodedotjs) 
+![Nodejs](https://img.shields.io/npm/v/npm.svg?logo=nodedotjs) 
 
-Frameworks / Librerías
+# Frameworks / Librerías
 
-[React](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat-square)
+![React](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat-square)
 
-[Ionic Framework]
+![Ionic Framework]
 
-Entorno de desarrollo
+# Entorno de desarrollo
 
-[Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=fff&style=plastic)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=fff&style=plastic)
 
 
 Estas herramientas permiten crear un frontend modular, accesible y adaptable, adecuado para ser evaluado por usuarios TEA.
 
 
-**Instrucciones para Ejecutar el Proyecto**
+# **Instrucciones para Ejecutar el Proyecto**
 
 Instalar Node.js.
 
@@ -92,7 +92,7 @@ Iniciar la aplicación: npm run dev, asegurarse que este en la carpeta del proye
 
 Abrir en el navegador la dirección indicada por el entorno (localhost).
 
-**Propósito del Software**
+# **Propósito del Software**
 
 Este frontend sirve como base para las evaluaciones participativas con estudiantes universitarios con TEA.
 Durante las pruebas se evaluarán:
@@ -109,6 +109,7 @@ Durante las pruebas se evaluarán:
 
 Los resultados permitirán refinar los principios utilizados y construir una guía final de diseño UX inclusivo orientada a este perfil de usuario.
 
+#Instrucciones para ejecutar
 
 1- Descargar Node.js
 
