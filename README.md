@@ -70,7 +70,7 @@ Estos fundamentos aseguran:
 
 ![React](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat-square)
 
-![Ionic Framework]
+[Ionic Framework]
 
 # Entorno de desarrollo
 
@@ -97,7 +97,7 @@ Abrir en el navegador la dirección indicada por el entorno (localhost).
 Este frontend sirve como base para las evaluaciones participativas con estudiantes universitarios con TEA.
 Durante las pruebas se evaluarán:
 
--Accesibilidad
+- Accesibilidad
 
 - Usabilidad
 
@@ -109,7 +109,7 @@ Durante las pruebas se evaluarán:
 
 Los resultados permitirán refinar los principios utilizados y construir una guía final de diseño UX inclusivo orientada a este perfil de usuario.
 
-#Instrucciones para ejecutar
+## Instrucciones para ejecutar
 
 1- Descargar Node.js
 
