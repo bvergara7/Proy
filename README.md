@@ -116,7 +116,7 @@ Los resultados permitir√°n refinar los principios utilizados y construir una gu√
 
 1- Descargar Node.js
 
-2- En Visual Studio Code, descargar la extension de WebNative
+2- En Visual Studio Code, descargar la extension de WebNative para poder utilizar Framework de Ionic junto con React.
 
 3- Ejecutar el proyecto en el cmd (Command Propmt) con el comando: npm run dev (asegurarse que este en la carpeta del proyecto denominada proytea)
 Como se especifica en la siguiente imagen adjunta:
