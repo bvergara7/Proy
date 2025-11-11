@@ -3,7 +3,7 @@
 
 ## **Tema de Proyecto: Diseño de Experiencia de Usuario Centrado en Personas con Trastorno del Espectro Autista (TEA)**
 
-## **Integrante: Benjamín Antonio Vergara Urtubia
+## **Integrante: Benjamín Antonio Vergara Urtubia**
 
 ## **Descripción del Proyecto**
 
