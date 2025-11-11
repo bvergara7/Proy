@@ -13,22 +13,25 @@ El objetivo principal es construir una interfaz accesible, estructurada y person
 La plataforma incorpora características que responden a dificultades comunes de usuarios TEA, tales como sensibilidad sensorial, necesidad de estructura, claridad lingüística y consistencia visual.
 El sistema desarrollado consiste en un prototipo funcional que incluye pantallas de navegación, personalización, visualización de cursos, contenido académico, comunicación aumentativa y un módulo de ayuda, todas construidas a partir de principios obtenidos de literatura científica y evaluaciones participativas.
 
+## Requerimientos Funcionales
+<img width="666" height="498" alt="image" src="https://github.com/user-attachments/assets/fa15bc8c-76d1-49f2-8e00-d962b18f57cf" />
+
+## Requerimientos No Funcionales
+<img width="665" height="470" alt="image" src="https://github.com/user-attachments/assets/c8d771ce-169b-4e5c-b6c3-f079ada65ea6" />
+
+
 ## **Principales Funcionalidades (Frontend)**
 
-Inicio y Visualización de Cursos:
-La pantalla inicial presenta tarjetas claras con información del curso, como nombre, sigla y descripción. Incluye un indicador visual del progreso académico. La navegación es directa y evita elementos innecesarios para no generar sobrecarga cognitiva. Su estructura favorece que el estudiante identifique rápidamente su avance y pueda acceder a los contenidos sin confusión.
+- Inicio y Visualización de Cursos: La pantalla inicial presenta tarjetas claras con información del curso, como nombre, sigla y descripción. Incluye un indicador visual del progreso académico. La navegación es directa y evita elementos innecesarios para no generar sobrecarga cognitiva. Su estructura favorece que el estudiante identifique rápidamente su avance y pueda acceder a los contenidos sin confusión.
 
-Personalización de Interfaz:
-Incluye un módulo que permite modificar tamaño de fuente, colores, contraste, selección de temas (incluyendo modo oscuro) y control de notificaciones. Además, incorpora una vista previa para revisar los cambios antes de aplicarlos. Esta sección es esencial para usuarios TEA que requieren ajustar el entorno visual según su tolerancia sensorial.
 
-Contenido del Curso:
-Ofrece contenido segmentado en formato texto, audio y video. Incluye imágenes y representaciones visuales claras que refuerzan la comprensión. La navegación es lineal y evita estructuras complejas. La información se presenta de forma gradual para disminuir la carga cognitiva.
+- Personalización de Interfaz: Incluye un módulo que permite modificar tamaño de fuente, colores, contraste, selección de temas (incluyendo modo oscuro) y control de notificaciones. Además, incorpora una vista previa para revisar los cambios antes de aplicarlos. Esta sección es esencial para usuarios TEA que requieren ajustar el entorno visual según su tolerancia sensorial.
 
-Comunicación:
-Incluye botones de acción rápida que permiten expresar necesidades como solicitar ayuda, tomar una pausa u otras acciones básicas sin necesidad de escribir. También incluye un cuadro para redactar mensajes con opciones. Esta función apoya la expresión directa del usuario en situaciones de duda o ansiedad.
+- Contenido del Curso: Ofrece contenido segmentado en formato texto, audio y video. Incluye imágenes y representaciones visuales claras que refuerzan la comprensión. La navegación es lineal y evita estructuras complejas. La información se presenta de forma gradual para disminuir la carga cognitiva.
 
-Módulo de Ayuda:
-Presenta instrucciones paso a paso sobre el uso del sistema, acompañadas de recursos visuales y explicaciones repetibles. El lenguaje utilizado es completamente literal para evitar ambigüedades. Su propósito es ofrecer soporte constante y accesible durante la navegación.
+- Comunicación: Incluye botones de acción rápida que permiten expresar necesidades como solicitar ayuda, tomar una pausa u otras acciones básicas sin necesidad de escribir. También incluye un cuadro para redactar mensajes con opciones. Esta función apoya la expresión directa del usuario en situaciones de duda o ansiedad.
+
+- Módulo de Ayuda: Presenta instrucciones paso a paso sobre el uso del sistema, acompañadas de recursos visuales y explicaciones repetibles. El lenguaje utilizado es completamente literal para evitar ambigüedades. Su propósito es ofrecer soporte constante y accesible durante la navegación.
 
 Menú de Navegación:
 El menú mantiene una estructura fija y consistente en todas las pantallas. Permite acceder a Inicio, Cursos, Contenido, Configuración, Comunicación y Ayuda. Su organización evita la desorientación y facilita el movimiento por la plataforma.
