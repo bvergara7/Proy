@@ -83,17 +83,6 @@ Estos fundamentos aseguran:
 Estas herramientas permiten crear un frontend modular, accesible y adaptable, adecuado para ser evaluado por usuarios TEA.
 
 
-# **Instrucciones para Ejecutar el Proyecto**
-
-Instalar Node.js.
-
-Instalar dependencias: npm install
-
-
-Iniciar la aplicación: npm run dev, asegurarse que este en la carpeta del proyecto (denominada proytea).
-
-
-Abrir en el navegador la dirección indicada por el entorno (localhost).
 
 # **Propósito del Software**
 
