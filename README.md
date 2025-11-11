@@ -118,9 +118,9 @@ Los resultados permitir√°n refinar los principios utilizados y construir una gu√
 
 2- En Visual Studio Code, descargar la extension de WebNative para poder utilizar Framework de Ionic junto con React.
 
-3- Ejecutar el proyecto en el cmd (Command Propmt) con el comando: npm run dev (asegurarse que este en la carpeta del proyecto denominada proytea)
+3- Ejecutar el proyecto en el cmd (Command Propmt) con el siguiente comando: npm run dev (asegurarse que este en la carpeta del proyecto denominada proytea)
 
-Como se especifica en la siguiente imagen adjunta:
+Como se especifica en la imagen adjunta:
 
 <img width="640" height="225" alt="image" src="https://github.com/user-attachments/assets/32215b70-3ab9-40d8-9dbe-cb2dfe690eeb" />
 
