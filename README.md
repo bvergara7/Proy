@@ -26,22 +26,22 @@ Lo referente a los Requerimientos No Funcionales como la usabilidad, accesibilid
 
 ## **Principales Funcionalidades (Frontend)**
 
-- Inicio y Visualización de Cursos: La pantalla inicial presenta tarjetas claras con información del curso, como nombre, sigla y descripción. Incluye un indicador visual del progreso académico. La navegación es directa y evita elementos innecesarios para no generar sobrecarga cognitiva. Su estructura favorece que el estudiante identifique rápidamente su avance y pueda acceder a los contenidos sin confusión.
-<img width="780" height="483" alt="image" src="https://github.com/user-attachments/assets/a05c7ad9-2715-4dff-8abb-052627c503f9" />
+Inicio y Visualización de Cursos: La pantalla inicial presenta tarjetas claras con información del curso, como nombre, sigla y descripción. Incluye un indicador visual del progreso académico. La navegación es directa y evita elementos innecesarios para no generar sobrecarga cognitiva. Su estructura favorece que el estudiante identifique rápidamente su avance y pueda acceder a los contenidos sin confusión.
+<img width="980" height="483" alt="image" src="https://github.com/user-attachments/assets/a05c7ad9-2715-4dff-8abb-052627c503f9" />
 
 
 
-- Personalización de Interfaz: Incluye un módulo que permite modificar tamaño de fuente, colores, contraste, selección de temas (incluyendo modo oscuro) y control de notificaciones. Además, incorpora una vista previa para revisar los cambios antes de aplicarlos. Esta sección es esencial para usuarios TEA que requieren ajustar el entorno visual según su tolerancia sensorial.
+Personalización de Interfaz: Incluye un módulo que permite modificar tamaño de fuente, colores, contraste, selección de temas (incluyendo modo oscuro) y control de notificaciones. Además, incorpora una vista previa para revisar los cambios antes de aplicarlos. Esta sección es esencial para usuarios TEA que requieren ajustar el entorno visual según su tolerancia sensorial.
 
-- Contenido del Curso: Ofrece contenido segmentado en formato texto, audio y video. Incluye imágenes y representaciones visuales claras que refuerzan la comprensión. La navegación es lineal y evita estructuras complejas. La información se presenta de forma gradual para disminuir la carga cognitiva.
+Contenido del Curso: Ofrece contenido segmentado en formato texto, audio y video. Incluye imágenes y representaciones visuales claras que refuerzan la comprensión. La navegación es lineal y evita estructuras complejas. La información se presenta de forma gradual para disminuir la carga cognitiva.
 
-- Comunicación: Incluye botones de acción rápida que permiten expresar necesidades como solicitar ayuda, tomar una pausa u otras acciones básicas sin necesidad de escribir. También incluye un cuadro para redactar mensajes con opciones. Esta función apoya la expresión directa del usuario en situaciones de duda o ansiedad.
+Comunicación: Incluye botones de acción rápida que permiten expresar necesidades como solicitar ayuda, tomar una pausa u otras acciones básicas sin necesidad de escribir. También incluye un cuadro para redactar mensajes con opciones. Esta función apoya la expresión directa del usuario en situaciones de duda o ansiedad.
 
-- Módulo de Ayuda: Presenta instrucciones paso a paso sobre el uso del sistema, acompañadas de recursos visuales y explicaciones repetibles. El lenguaje utilizado es completamente literal para evitar ambigüedades. Su propósito es ofrecer soporte constante y accesible durante la navegación.
+Módulo de Ayuda: Presenta instrucciones paso a paso sobre el uso del sistema, acompañadas de recursos visuales y explicaciones repetibles. El lenguaje utilizado es completamente literal para evitar ambigüedades. Su propósito es ofrecer soporte constante y accesible durante la navegación.
 
-Menú de Navegación:
-El menú mantiene una estructura fija y consistente en todas las pantallas. Permite acceder a Inicio, Cursos, Contenido, Configuración, Comunicación y Ayuda. Su organización evita la desorientación y facilita el movimiento por la plataforma.
-El enfoque es mantener predictibilidad y continuidad dentro de la experiencia.
+Menú de Navegación: El menú mantiene una estructura fija y consistente en todas las pantallas. Permite acceder a Inicio, Cursos, Contenido, Configuración, Comunicación y Ayuda. Su organización evita la desorientación y facilita el movimiento por la plataforma.
+
+El enfoque de estas funcionalidades es el de mantener predictibilidad y continuidad dentro de la experiencia del estudiante TEA.
 
 # **Fundamentos del Diseño**
 
