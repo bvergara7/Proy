@@ -41,6 +41,9 @@ Lo referente a los requerimientos no funcionales del sistema van asociados a la 
 
 - Contenido del Curso: Ofrece contenido segmentado en formato texto, audio y video. Incluye imágenes y representaciones visuales claras que refuerzan la comprensión. La navegación es lineal y evita estructuras complejas. La información se presenta de forma gradual para disminuir la carga cognitiva.
 
+
+<img width="1463" height="732" alt="image" src="https://github.com/user-attachments/assets/701f610b-64ab-4e1a-b23a-8591d6b0b209" />
+
 <img width="1466" height="728" alt="image" src="https://github.com/user-attachments/assets/03ab36cf-4fa7-4b24-af0f-c22043a1490c" />
 
                                                                                                   
