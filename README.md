@@ -28,7 +28,8 @@ Lo referente a los Requerimientos No Funcionales como la usabilidad, accesibilid
 
 Inicio y Visualización de Cursos: La pantalla inicial presenta tarjetas claras con información del curso, como nombre, sigla y descripción. Incluye un indicador visual del progreso académico. La navegación es directa y evita elementos innecesarios para no generar sobrecarga cognitiva. Su estructura favorece que el estudiante identifique rápidamente su avance y pueda acceder a los contenidos sin confusión.
 
-<img width="1869" height="936" alt="image" src="https://github.com/user-attachments/assets/93e44537-092e-4462-b520-9639c850a1da" />
+<img width="1871" height="941" alt="image" src="https://github.com/user-attachments/assets/4d8fdd17-23de-435d-9491-5394f412ddd3" />
+
 
 
 
