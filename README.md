@@ -18,11 +18,13 @@ Los requerimientos funcionales del sistema se materializan a nivel de interfaz i
 
 <img width="666" height="498" alt="image" src="https://github.com/user-attachments/assets/fa15bc8c-76d1-49f2-8e00-d962b18f57cf" />
 
+
 ## Requerimientos No Funcionales
 Lo referente a los requerimientos no funcionales del sistema van asociados a la usabilidad, accesibilidad del mismo, se abordan directamente a través del diseño de la interfaz y la arquitectura del código frontend (React con Ionic), que es el foco de la evaluación participativa.
 
 <img width="665" height="470" alt="image" src="https://github.com/user-attachments/assets/c8d771ce-169b-4e5c-b6c3-f079ada65ea6" />
 
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 ## **Principales Funcionalidades - (Frontend) - (proytea/src/pages)**
 
@@ -30,14 +32,14 @@ Lo referente a los requerimientos no funcionales del sistema van asociados a la 
 
 <img width="1871" height="941" alt="image" src="https://github.com/user-attachments/assets/4d8fdd17-23de-435d-9491-5394f412ddd3" />
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 
 - Personalización de Interfaz: Incluye un módulo que permite modificar tamaño de fuente, colores, contraste, selección de temas (incluyendo modo oscuro) y control de notificaciones. Además, incorpora una vista previa para revisar los cambios antes de aplicarlos. Esta sección es esencial para usuarios TEA que requieren ajustar el entorno visual según su tolerancia sensorial.
 
 <img width="1465" height="928" alt="image" src="https://github.com/user-attachments/assets/ec5604fd-b4bb-4f05-b96e-685fc41e36cf" />
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------
 
 - Contenido del Curso: Ofrece contenido segmentado en formato texto, audio y video. Incluye imágenes y representaciones visuales claras que refuerzan la comprensión. La navegación es lineal y evita estructuras complejas. La información se presenta de forma gradual para disminuir la carga cognitiva.
 
@@ -58,7 +60,7 @@ Lo referente a los requerimientos no funcionales del sistema van asociados a la 
 
 <img width="1446" height="595" alt="image" src="https://github.com/user-attachments/assets/848d373f-26b1-4923-a029-5dec1586c606" />
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------
 - Módulo de Ayuda: Presenta instrucciones paso a paso sobre el uso del sistema, acompañadas de recursos visuales y explicaciones repetibles. El lenguaje utilizado es completamente literal para evitar ambigüedades. Su propósito es ofrecer soporte constante y accesible durante la navegación.
 
 <img width="1868" height="931" alt="image" src="https://github.com/user-attachments/assets/fa9d25c4-4847-47da-aa12-7c018e064ff9" />
@@ -66,7 +68,7 @@ Lo referente a los requerimientos no funcionales del sistema van asociados a la 
 <img width="1860" height="935" alt="image" src="https://github.com/user-attachments/assets/5be2560c-4778-4032-beea-7e5a643b6601" />
 
 
-
+----------------------------------------------------------------------------------------------------------------------------------------
 - Menú de Navegación: El menú mantiene una estructura fija y consistente en todas las pantallas, lo cual permite acceder a las funcionalidades. Su organización evita la desorientación y facilita el movimiento por la plataforma.
 
 <img width="1415" height="929" alt="image" src="https://github.com/user-attachments/assets/37dab599-392d-4c05-86fd-1a4af5c31d25" />
