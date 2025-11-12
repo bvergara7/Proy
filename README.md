@@ -159,7 +159,7 @@ El archivo App.tsx actúa como el enrutador principal de la aplicación, definie
 
 /Comunicacion (ComunicacionPag.tsx): Implementa la funcionalidad de comunicación aumentativa. Provee botones de acción rápida y un cuadro de texto para facilitar la expresión de necesidades.
 
-/Ayuda (AyudaEstudiante.tsx): Ofrece soporte al usuario mediante instrucciones literales y visuales sobre cómo navegar y utilizar la plataforma.
+/Ayuda (AyudaEstudiante.tsx): Ofrece soporte al usuario mediante instrucciones literales y visuales, además de preguntas frecuentes sobre cómo navegar y utilizar la plataforma
 
 ## Instrucciones para ejecutar
 
