@@ -14,6 +14,7 @@ La plataforma incorpora características que responden a dificultades comunes de
 El sistema desarrollado consiste en un prototipo funcional que incluye pantallas de navegación, personalización, visualización de cursos, contenido académico, comunicación aumentativa y un módulo de ayuda, todas construidas a partir de principios obtenidos de literatura científica y evaluaciones participativas.
 
 ## Requerimientos Funcionales
+Los requerimientos funcionales del sistemase materializan a nivel de interfaz implementadas en el frontend. La persistencia de los datos (como guardar una configuración o cargar un curso) se simula utilizando datos locales/contenido estático definido en el propio código. El prototipo no se conecta a un servidor o base de datos real (Unicamente FRONTEND).
 <img width="666" height="498" alt="image" src="https://github.com/user-attachments/assets/fa15bc8c-76d1-49f2-8e00-d962b18f57cf" />
 
 ## Requerimientos No Funcionales
