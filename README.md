@@ -63,7 +63,7 @@ Lo referente a los Requerimientos No Funcionales como la usabilidad, accesibilid
 
 
 
-- Menú de Navegación: El menú mantiene una estructura fija y consistente en todas las pantallas. Permite acceder a Inicio, Cursos, Contenido, Configuración, Comunicación y Ayuda. Su organización evita la desorientación y facilita el movimiento por la plataforma.
+- Menú de Navegación: El menú mantiene una estructura fija y consistente en todas las pantallas, lo cual permite acceder a las funcionalidades. Su organización evita la desorientación y facilita el movimiento por la plataforma.
 
 <img width="1415" height="929" alt="image" src="https://github.com/user-attachments/assets/37dab599-392d-4c05-86fd-1a4af5c31d25" />
 
