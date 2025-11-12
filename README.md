@@ -55,6 +55,7 @@ Lo referente a los requerimientos no funcionales del sistema van asociados a la 
 
 <img width="1446" height="723" alt="image" src="https://github.com/user-attachments/assets/55c8735c-7ae7-4aef-af1f-367c3661cb4d" />
 
+----------------------------------------------------------------------------------------------------------------------------------------------
 
 - Comunicación: Incluye botones de acción rápida que permiten expresar necesidades como solicitar ayuda, tomar una pausa u otras acciones básicas sin necesidad de escribir. También incluye un cuadro para redactar mensajes con opciones. Esta función apoya la expresión directa del usuario en situaciones de duda o ansiedad.
 
