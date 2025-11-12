@@ -24,7 +24,7 @@ Lo referente a los Requerimientos No Funcionales como la usabilidad, accesibilid
 <img width="665" height="470" alt="image" src="https://github.com/user-attachments/assets/c8d771ce-169b-4e5c-b6c3-f079ada65ea6" />
 
 
-## **Principales Funcionalidades (Frontend)**
+## **Principales Funcionalidades - (Frontend)**
 
 Inicio y Visualización de Cursos: La pantalla inicial presenta tarjetas claras con información del curso, como nombre, sigla y descripción. Incluye un indicador visual del progreso académico. La navegación es directa y evita elementos innecesarios para no generar sobrecarga cognitiva. Su estructura favorece que el estudiante identifique rápidamente su avance y pueda acceder a los contenidos sin confusión.
 
@@ -40,16 +40,19 @@ Personalización de Interfaz: Incluye un módulo que permite modificar tamaño d
 
 Contenido del Curso: Ofrece contenido segmentado en formato texto, audio y video. Incluye imágenes y representaciones visuales claras que refuerzan la comprensión. La navegación es lineal y evita estructuras complejas. La información se presenta de forma gradual para disminuir la carga cognitiva.
 
-<img width="1466" height="928" alt="image" src="https://github.com/user-attachments/assets/03ab36cf-4fa7-4b24-af0f-c22043a1490c" />
+<img width="1466" height="728" alt="image" src="https://github.com/user-attachments/assets/03ab36cf-4fa7-4b24-af0f-c22043a1490c" />
 
 
-<img width="1452" height="928" alt="image" src="https://github.com/user-attachments/assets/e39aff59-f3e1-4d8e-9ffd-67d24704ba33" />
+<img width="1452" height="728" alt="image" src="https://github.com/user-attachments/assets/e39aff59-f3e1-4d8e-9ffd-67d24704ba33" />
 
 
-<img width="1446" height="923" alt="image" src="https://github.com/user-attachments/assets/55c8735c-7ae7-4aef-af1f-367c3661cb4d" />
+<img width="1446" height="723" alt="image" src="https://github.com/user-attachments/assets/55c8735c-7ae7-4aef-af1f-367c3661cb4d" />
 
 
 Comunicación: Incluye botones de acción rápida que permiten expresar necesidades como solicitar ayuda, tomar una pausa u otras acciones básicas sin necesidad de escribir. También incluye un cuadro para redactar mensajes con opciones. Esta función apoya la expresión directa del usuario en situaciones de duda o ansiedad.
+
+<img width="1446" height="595" alt="image" src="https://github.com/user-attachments/assets/848d373f-26b1-4923-a029-5dec1586c606" />
+
 
 Módulo de Ayuda: Presenta instrucciones paso a paso sobre el uso del sistema, acompañadas de recursos visuales y explicaciones repetibles. El lenguaje utilizado es completamente literal para evitar ambigüedades. Su propósito es ofrecer soporte constante y accesible durante la navegación.
 
