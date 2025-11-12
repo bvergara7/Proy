@@ -104,6 +104,22 @@ Durante las pruebas se evaluarán:
 
 Los resultados permitirán refinar los principios utilizados y construir una guía final de diseño UX inclusivo orientada a este perfil de usuario.
 
+## Rutas Especificas 
+
+El archivo App.tsx actúa como el enrutador principal de la aplicación, definiendo la navegación entre las distintas vistas (páginas) a traves del link local como se especifica a continuacion --> (http://localhost:xxxx/Ruta):
+
+/Inicio (InicioEstudiante.tsx): Es la pantalla de bienvenida. Presenta al estudiante un resumen de su estado, posiblemente con accesos directos y un indicador de progreso general.
+
+/Cursos (CursosPag.tsx): Muestra el catálogo de cursos en los que el estudiante está inscrito (Física, Cálculo, Programación). Actúa como el hub central para acceder al material académico.
+
+/CalculoCurso, /FisicaCurso, /ProgramacionCurso: Son las páginas de contenido específico para cada asignatura. Aquí es donde el estudiante interactúa con el material segmentado (texto, audio, video) y las lecciones.
+
+/Configuracion (ConfiguracionEstudiante.tsx): Corresponde al módulo de personalización. Permite al usuario ajustar la interfaz (tamaño de fuente, contraste, temas) para adaptarla a sus necesidades sensoriales.
+
+/Comunicacion (ComunicacionPag.tsx): Implementa la funcionalidad de comunicación aumentativa. Provee botones de acción rápida y un cuadro de texto para facilitar la expresión de necesidades.
+
+/Ayuda (AyudaEstudiante.tsx): Ofrece soporte al usuario mediante instrucciones literales y visuales sobre cómo navegar y utilizar la plataforma.
+
 ## Instrucciones para ejecutar
 
 1- Descargar Node.js
@@ -118,3 +134,7 @@ Como se especifica en la imagen adjunta:
 
 
 4- Acceder al link del localhost.
+
+
+
+
