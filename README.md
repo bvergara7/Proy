@@ -19,7 +19,7 @@ Los requerimientos funcionales del sistemase materializan a nivel de interfaz im
 <img width="666" height="498" alt="image" src="https://github.com/user-attachments/assets/fa15bc8c-76d1-49f2-8e00-d962b18f57cf" />
 
 ## Requerimientos No Funcionales
-Lo referente a los Requerimientos No Funcionales como la usabilidad, accesibilidad, consistencia y adaptabilidad, se abordan directamente a través del diseño de la interfaz y la arquitectura del código frontend (React con Ionic), que es el foco de la evaluación participativa.
+Lo referente a los requerimientos no funcionales del sistema van asociados a la usabilidad, accesibilidad del mismo, se abordan directamente a través del diseño de la interfaz y la arquitectura del código frontend (React con Ionic), que es el foco de la evaluación participativa.
 
 <img width="665" height="470" alt="image" src="https://github.com/user-attachments/assets/c8d771ce-169b-4e5c-b6c3-f079ada65ea6" />
 
