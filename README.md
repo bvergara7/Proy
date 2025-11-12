@@ -7,7 +7,7 @@
 
 ## **Descripción del Proyecto**
 
-Este proyecto corresponde al desarrollo del frontend de una plataforma educativa diseñada para estudiantes universitarios con Trastorno del Espectro Autista (TEA).
+Este proyecto corresponde al desarrollo del frontend de una plataforma educativa diseñada para estudiantes universitarios con Trastorno del Espectro Autista (TEA) de nivel 1 de gravedad.
 El objetivo principal es construir una interfaz accesible, estructurada y personalizable, fundamentada en principios de usabilidad, accesibilidad cognitiva y Diseño Centrado en el Usuario (DCU).
 
 La plataforma incorpora características que responden a dificultades comunes de usuarios TEA, tales como sensibilidad sensorial, necesidad de estructura, claridad lingüística y consistencia visual.
