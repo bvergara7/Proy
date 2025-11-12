@@ -26,7 +26,7 @@ Lo referente a los requerimientos no funcionales del sistema van asociados a la 
 
 ## **Principales Funcionalidades - (Frontend)**
 
-- Inicio y Visualización de Cursos: La pantalla inicial presenta tarjetas claras con información del curso, como nombre, sigla y descripción. Incluye un indicador visual del progreso académico. La navegación es directa y evita elementos innecesarios para no generar sobrecarga cognitiva. Su estructura favorece que el estudiante identifique rápidamente su avance y pueda acceder a los contenidos sin confusión.
+- Inicio: La pantalla inicial presenta tarjetas claras con información del curso, como nombre, sigla y descripción. Incluye un indicador visual del progreso académico. La navegación es directa y evita elementos innecesarios para no generar sobrecarga cognitiva. Su estructura favorece que el estudiante identifique rápidamente su avance y pueda acceder a los contenidos sin confusión.
 
 <img width="1871" height="941" alt="image" src="https://github.com/user-attachments/assets/4d8fdd17-23de-435d-9491-5394f412ddd3" />
 
