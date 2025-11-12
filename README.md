@@ -47,7 +47,8 @@ Lo referente a los requerimientos no funcionales del sistema van asociados a la 
 <img width="1466" height="728" alt="image" src="https://github.com/user-attachments/assets/03ab36cf-4fa7-4b24-af0f-c22043a1490c" />
 
                                                                                                   
-<img width="1452" height="728" alt="image" src="https://github.com/user-attachments/assets/e39aff59-f3e1-4d8e-9ffd-67d24704ba33" />
+<img width="1455" height="727" alt="image" src="https://github.com/user-attachments/assets/9807043b-3c28-4d1d-8336-4ae301af20ae" />
+
 
 
 <img width="1446" height="723" alt="image" src="https://github.com/user-attachments/assets/55c8735c-7ae7-4aef-af1f-367c3661cb4d" />
