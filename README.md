@@ -15,15 +15,20 @@ El sistema desarrollado consiste en un prototipo funcional que incluye pantallas
 
 ## Requerimientos Funcionales
 Los requerimientos funcionales del sistemase materializan a nivel de interfaz implementadas en el frontend. La persistencia de los datos (como guardar una configuración o cargar un curso) se simula utilizando datos locales/contenido estático definido en el propio código. El prototipo no se conecta a un servidor o base de datos real (Unicamente FRONTEND).
+
 <img width="666" height="498" alt="image" src="https://github.com/user-attachments/assets/fa15bc8c-76d1-49f2-8e00-d962b18f57cf" />
 
 ## Requerimientos No Funcionales
+Lo referente a los Requerimientos No Funcionales como la usabilidad, accesibilidad, consistencia y adaptabilidad, se abordan directamente a través del diseño de la interfaz y la arquitectura del código frontend (React con Ionic), que es el foco de la evaluación participativa.
+
 <img width="665" height="470" alt="image" src="https://github.com/user-attachments/assets/c8d771ce-169b-4e5c-b6c3-f079ada65ea6" />
 
 
 ## **Principales Funcionalidades (Frontend)**
 
 - Inicio y Visualización de Cursos: La pantalla inicial presenta tarjetas claras con información del curso, como nombre, sigla y descripción. Incluye un indicador visual del progreso académico. La navegación es directa y evita elementos innecesarios para no generar sobrecarga cognitiva. Su estructura favorece que el estudiante identifique rápidamente su avance y pueda acceder a los contenidos sin confusión.
+<img width="780" height="483" alt="image" src="https://github.com/user-attachments/assets/a05c7ad9-2715-4dff-8abb-052627c503f9" />
+
 
 
 - Personalización de Interfaz: Incluye un módulo que permite modificar tamaño de fuente, colores, contraste, selección de temas (incluyendo modo oscuro) y control de notificaciones. Además, incorpora una vista previa para revisar los cambios antes de aplicarlos. Esta sección es esencial para usuarios TEA que requieren ajustar el entorno visual según su tolerancia sensorial.
