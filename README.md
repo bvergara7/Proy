@@ -27,14 +27,23 @@ Lo referente a los Requerimientos No Funcionales como la usabilidad, accesibilid
 ## **Principales Funcionalidades (Frontend)**
 
 Inicio y Visualización de Cursos: La pantalla inicial presenta tarjetas claras con información del curso, como nombre, sigla y descripción. Incluye un indicador visual del progreso académico. La navegación es directa y evita elementos innecesarios para no generar sobrecarga cognitiva. Su estructura favorece que el estudiante identifique rápidamente su avance y pueda acceder a los contenidos sin confusión.
+
 <img width="1869" height="936" alt="image" src="https://github.com/user-attachments/assets/93e44537-092e-4462-b520-9639c850a1da" />
-
-
 
 
 Personalización de Interfaz: Incluye un módulo que permite modificar tamaño de fuente, colores, contraste, selección de temas (incluyendo modo oscuro) y control de notificaciones. Además, incorpora una vista previa para revisar los cambios antes de aplicarlos. Esta sección es esencial para usuarios TEA que requieren ajustar el entorno visual según su tolerancia sensorial.
 
+<img width="1865" height="928" alt="image" src="https://github.com/user-attachments/assets/ec5604fd-b4bb-4f05-b96e-685fc41e36cf" />
+
+
 Contenido del Curso: Ofrece contenido segmentado en formato texto, audio y video. Incluye imágenes y representaciones visuales claras que refuerzan la comprensión. La navegación es lineal y evita estructuras complejas. La información se presenta de forma gradual para disminuir la carga cognitiva.
+
+<img width="1866" height="928" alt="image" src="https://github.com/user-attachments/assets/03ab36cf-4fa7-4b24-af0f-c22043a1490c" />
+
+<img width="1852" height="928" alt="image" src="https://github.com/user-attachments/assets/e39aff59-f3e1-4d8e-9ffd-67d24704ba33" />
+
+<img width="1846" height="923" alt="image" src="https://github.com/user-attachments/assets/55c8735c-7ae7-4aef-af1f-367c3661cb4d" />
+
 
 Comunicación: Incluye botones de acción rápida que permiten expresar necesidades como solicitar ayuda, tomar una pausa u otras acciones básicas sin necesidad de escribir. También incluye un cuadro para redactar mensajes con opciones. Esta función apoya la expresión directa del usuario en situaciones de duda o ansiedad.
 
@@ -135,7 +144,7 @@ El archivo App.tsx actúa como el enrutador principal de la aplicación, definie
 
 3- Ejecutar el proyecto en el cmd (Command Propmt) con el siguiente comando: npm run dev (asegurarse que este en la carpeta del proyecto denominada proytea)
 
-Como se especifica en la imagen adjunta:
+-Como se especifica en la imagen adjunta:
 
 <img width="640" height="225" alt="image" src="https://github.com/user-attachments/assets/32215b70-3ab9-40d8-9dbe-cb2dfe690eeb" />
 
