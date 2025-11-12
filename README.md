@@ -24,7 +24,7 @@ Lo referente a los requerimientos no funcionales del sistema van asociados a la 
 <img width="665" height="470" alt="image" src="https://github.com/user-attachments/assets/c8d771ce-169b-4e5c-b6c3-f079ada65ea6" />
 
 
-## **Principales Funcionalidades - (Frontend)**
+## **Principales Funcionalidades - (Frontend) - (proytea/src/pages)**
 
 - Inicio: La pantalla inicial presenta tarjetas claras con información del curso, como nombre, sigla y descripción. Incluye un indicador visual del progreso académico. La navegación es directa y evita elementos innecesarios para no generar sobrecarga cognitiva. Su estructura favorece que el estudiante identifique rápidamente su avance y pueda acceder a los contenidos sin confusión.
 
