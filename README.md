@@ -68,6 +68,7 @@ Lo referente a los Requerimientos No Funcionales como la usabilidad, accesibilid
 <img width="1415" height="929" alt="image" src="https://github.com/user-attachments/assets/37dab599-392d-4c05-86fd-1a4af5c31d25" />
 
 
+
 El enfoque de estas funcionalidades es el de mantener predictibilidad y continuidad dentro de la experiencia del estudiante TEA.
 
 # **Fundamentos del Diseño**
