@@ -11,7 +11,7 @@ Este proyecto corresponde al desarrollo del frontend de una plataforma educativa
 El objetivo principal es construir una interfaz accesible, estructurada y personalizable, fundamentada en principios de usabilidad, accesibilidad cognitiva y Diseño Centrado en el Usuario (DCU).
 
 La plataforma incorpora características que responden a dificultades comunes de usuarios TEA, tales como sensibilidad sensorial, necesidad de estructura, claridad lingüística y consistencia visual.
-El sistema desarrollado consiste en un prototipo funcional que incluye pantallas de navegación, personalización, visualización de cursos, contenido académico, comunicación aumentativa y un módulo de ayuda, todas construidas a partir de principios obtenidos dentro de la literatura científica para su posterior evaluacion participativa a traves de pruebas con usuarios.
+El sistema desarrollado consiste en un prototipo funcional que incluye pantallas de navegación, personalización, visualización de cursos, contenido académico, comunicación y  módulo de ayuda, todas construidas a partir de principios obtenidos dentro de la literatura científica para su posterior evaluacion participativa a traves de pruebas con usuarios.
 
 ## Requerimientos Funcionales
 Los requerimientos funcionales del sistema se materializan a nivel de interfaz implementadas en el frontend. La persistencia de los datos (como guardar una configuración o cargar un curso) se simula utilizando datos locales/contenido estático definido en el propio código. El prototipo no se conecta a un servidor o base de datos real (Unicamente FRONTEND).
