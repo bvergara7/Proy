@@ -27,7 +27,8 @@ Lo referente a los Requerimientos No Funcionales como la usabilidad, accesibilid
 ## **Principales Funcionalidades (Frontend)**
 
 Inicio y Visualización de Cursos: La pantalla inicial presenta tarjetas claras con información del curso, como nombre, sigla y descripción. Incluye un indicador visual del progreso académico. La navegación es directa y evita elementos innecesarios para no generar sobrecarga cognitiva. Su estructura favorece que el estudiante identifique rápidamente su avance y pueda acceder a los contenidos sin confusión.
-<img width="980" height="483" alt="image" src="https://github.com/user-attachments/assets/a05c7ad9-2715-4dff-8abb-052627c503f9" />
+<img width="1869" height="936" alt="image" src="https://github.com/user-attachments/assets/93e44537-092e-4462-b520-9639c850a1da" />
+
 
 
 
