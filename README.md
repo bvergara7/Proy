@@ -149,7 +149,7 @@ Los resultados permitirán refinar los principios utilizados y construir una gu�
 
 El archivo App.tsx actúa como el enrutador principal de la aplicación, definiendo la navegación entre las distintas vistas (páginas) a traves del link local como se especifica a continuacion --> (http://localhost:xxxx/Ruta):
 
-/Inicio (InicioEstudiante.tsx): Es la pantalla de bienvenida. Presenta al estudiante un resumen de su estado, posiblemente con accesos directos y un indicador de progreso general.
+/Inicio (InicioEstudiante.tsx): Es la pantalla de bienvenida. Presenta los cursos del estudiante respectivo y un indicador de progreso general.
 
 /Cursos (CursosPag.tsx): Muestra el catálogo de cursos en los que el estudiante está inscrito (Física, Cálculo, Programación). Actúa como el hub central para acceder al material académico.
 
