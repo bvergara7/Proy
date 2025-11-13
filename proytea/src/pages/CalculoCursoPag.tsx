@@ -1,3 +1,8 @@
+// Pantalla del curso de Cálculo Diferencial e Integral.
+// Permite estudiar cada lección en formato texto, audio o video,
+// con controles de personalización (tamaño de letra, velocidad de audio, etc.),
+// pensado para apoyar diferentes estilos de procesamiento de información.
+
 import React, { useState, useRef, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import {
@@ -15,6 +20,8 @@ import {
   helpCircleOutline, playOutline
 } from 'ionicons/icons';
 
+// Preferencias de visualización y reproducción del curso
+// (tamaño de fuente, velocidad de audio, modo oscuro, auto reproduce, etc.)
 interface CourseSettings {
   fontSize: number;
   audioSpeed: number;
@@ -22,6 +29,8 @@ interface CourseSettings {
   autoPlay: boolean;
 }
 
+// Estructura base de cada lección: título, tipo principal de contenido
+// y recursos asociados (texto, audio, video, imágenes).
 interface LessonContent {
   id: string;
   title: string;
@@ -33,6 +42,7 @@ interface LessonContent {
   audioSrc?: string;
 }
 
+// Estado general de navegación y reproducción en el curso
 const CalculoCursoPag: React.FC = () => {
     const history = useHistory();
     const [selectedTab, setSelectedTab] = useState<string>('cursos');
@@ -49,16 +59,20 @@ const CalculoCursoPag: React.FC = () => {
     const [currentAudioTime, setCurrentAudioTime] = useState(0);
     const [audioDuration, setAudioDuration] = useState(0);
     const [isNavigating, setIsNavigating] = useState(false);
-    
+  
+    // Referencias a los elementos audio y video para poder controlar play/pause desde React
     const videoRef = useRef<HTMLVideoElement>(null);
     const audioRef = useRef<HTMLAudioElement>(null);
-    
+  
+    // Configuración inicial del usuario (tamaño de letra promedio y velocidad normal)
+
     const [courseSettings, setCourseSettings] = useState<CourseSettings>({
       fontSize: 16,
       audioSpeed: 1,
       darkMode: false,
       autoPlay: false
     });
+  // Datos generales del curso 
 
     const [courseData] = useState({
       id: '3',
@@ -71,7 +85,8 @@ const CalculoCursoPag: React.FC = () => {
       currentLesson: 'Límites y Continuidad'
     });
 
-    // URLs de audio de ejemplo (usando text-to-speech online o puedes reemplazar con tus propios audios)
+    // URLs de audio de ejemplo (usando text-to-speech online o puedes reemplazar con tus propios audios) y contenido de las lecciones. Cada una apunta a recursos multimedia
+  // y permite alternar entre distintas formas de presentar el mismo concepto.
     const [lessonsData] = useState<LessonContent[]>([
       {
         id: '1',
@@ -131,15 +146,20 @@ const CalculoCursoPag: React.FC = () => {
       };
     }, []);
 
+    // Devuelve la lección actual según el id seleccionado
+
     const getCurrentLesson = (): LessonContent => {
       return lessonsData.find(lesson => lesson.id === currentLesson) || lessonsData[0];
     };
-
+  
+  // Abre una imagen en un modal para poder verla más grande
     const handleImageClick = (imageUrl: string) => {
       setSelectedImage(imageUrl);
       setShowImageModal(true);
     };
-    
+  
+  // Controla play/pause del video desde un botón externo
+
     const handleVideoPlayPause = () => {
       if (videoRef.current) {
         if (videoRef.current.paused) {
@@ -151,6 +171,7 @@ const CalculoCursoPag: React.FC = () => {
         }
       }
     };
+  // Controla play/pause del audio mostrando mensajes de feedback al usuario
 
     const handleAudioPlayPause = () => {
       if (audioRef.current) {
@@ -201,7 +222,8 @@ const CalculoCursoPag: React.FC = () => {
       const secs = Math.floor(seconds % 60);
       return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
     };
-
+  
+  // Avanza a la siguiente lección, deteniendo cualquier audio o video en reproducción
     const handleNextLesson = () => {
       const currentIndex = lessonsData.findIndex(lesson => lesson.id === currentLesson);
       if (currentIndex < lessonsData.length - 1) {
@@ -242,7 +264,9 @@ const CalculoCursoPag: React.FC = () => {
         setShowToast(true);
       }
     };
-
+  
+  // Cambia el modo de presentación del contenido (texto, audio o video)
+  // y se asegura de pausar medios antes de cambiar.
     const handleContentTypeChange = (type: 'text' | 'audio' | 'video') => {
       if (videoRef.current && !videoRef.current.paused) {
         videoRef.current.pause();
@@ -265,7 +289,8 @@ const CalculoCursoPag: React.FC = () => {
         // history.push('/Ayuda');
       }, 1000);
     };
-
+  
+  // Encabezado del curso de cálculo, con botón para volver a "Cursos" y acceso a configuración
     const CustomHeader: React.FC = () => (
       <div style={{ 
         padding: '16px',
@@ -329,6 +354,7 @@ const CalculoCursoPag: React.FC = () => {
         </div>
       </div>
     );
+  // Sección que muestra el progreso global del curso
 
     const ProgressSection: React.FC = () => (
       <div style={{ 
