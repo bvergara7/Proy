@@ -171,7 +171,7 @@ El archivo App.tsx actúa como el enrutador principal de la aplicación, definie
 npm install react react-dom @types/react @types/react-dom
 npm install react-router-dom @types/react-router-dom
 npm install @ionic/react ionicons
-------------------------------------------------------------------------------------------------------------------
+
 <img width="892" height="30" alt="image" src="https://github.com/user-attachments/assets/2bc4f38a-dd35-47dd-b6a3-a53c471f8895" />
 
 --------------------------------------------------------------------------------------------------------------------
