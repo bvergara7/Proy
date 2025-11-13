@@ -124,9 +124,6 @@ Estos fundamentos aseguran:
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?logo=visualstudiocode&logoColor=fff&style=plastic)
 
 
-Estas herramientas permiten crear un frontend modular, accesible y adaptable, adecuado para ser evaluado por usuarios TEA.
-
-
 
 # **Propósito del Software**
 
