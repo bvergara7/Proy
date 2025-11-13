@@ -1,3 +1,6 @@
+// Pantalla principal "Mis Cursos" para el estudiante.
+// Muestra las asignaturas matriculadas, su progreso y accesos rápidos.
+// Pensado para entregar una vista clara y poco sobrecargada para usuarios TEA.
 import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { IonContent, IonPage, IonApp, IonButton, IonCard, IonCardContent, IonCardTitle, IonProgressBar, IonItem, IonList,
@@ -5,6 +8,8 @@ import { IonContent, IonPage, IonApp, IonButton, IonCard, IonCardContent, IonCar
 import { homeOutline, settingsOutline, libraryOutline, chatbubblesOutline, helpCircleOutline, schoolOutline, personOutline, calculatorOutline, planetOutline, codeSlashOutline, playOutline, documentTextOutline,
   calendarOutline, documentOutline, trophyOutline, bookOutline, informationCircleOutline, enterOutline, closeOutline } from 'ionicons/icons';
 
+// Estructura de datos para representar cada curso del estudiante
+// Incluye código, progreso, cantidad de lecciones y ruta para navegar.
 interface CourseData {
   id: string;
   name: string;
@@ -25,9 +30,13 @@ interface AnnouncementData {
   message: string;
 }
 
+// Estructura para anuncios o mensajes informativos del sistema/docentes
+
 const InicioCursosEstudiante: React.FC = () => {
   const history = useHistory();
+  // Controla qué opción del menú principal está seleccionada
   const [selectedTab, setSelectedTab] = useState<string>('inicio');
+   // Estados para modales, alertas y toasts (feedback visual al usuario)
   const [showInstructionsModal, setShowInstructionsModal] = useState(false);
   const [showToast, setShowToast] = useState(false);
   const [toastMessage, setToastMessage] = useState('');
@@ -40,6 +49,8 @@ const InicioCursosEstudiante: React.FC = () => {
     avatar: ''
   });
   
+// Lista de cursos simulada. Cada curso incluye descripción y enlace a su pantalla específica.
+
   const [coursesData] = useState<CourseData[]>([
     {
       id: '1',
@@ -81,7 +92,7 @@ const InicioCursosEstudiante: React.FC = () => {
       route: '/ProgramacionCurso'
     }
   ]);
-
+  // Anuncios visibles en la pantalla (recordatorios, novedades, etc.)
   const [announcements] = useState<AnnouncementData[]>([
     {
       id: '1',
@@ -99,11 +110,15 @@ const InicioCursosEstudiante: React.FC = () => {
       message: 'Horarios de atención docente actualizados en la sección de ayuda.'
     }
   ]);
+  
+  // Al hacer clic en "Ingresar al curso", se abre una alerta de confirmación
 
   const handleEnterCourse = (course: CourseData) => {
     setSelectedCourse(course);
     setShowAlert(true);
   };
+  
+  // Al hacer clic en "Ingresar al curso", se abre una alerta de confirmación
 
   const confirmEnterCourse = () => {
     if (selectedCourse) {
@@ -119,15 +134,17 @@ const InicioCursosEstudiante: React.FC = () => {
     setShowAlert(false);
     setSelectedCourse(null);
   };
-
+  // Abre el modal con instrucciones de uso de la pantalla "Mis Cursos"
   const handleShowInstructions = () => {
     setShowInstructionsModal(true);
   };
-
+ // Función genérica para accesos rápidos
   const handleQuickAccess = (section: string) => {
     console.log(`Accediendo a: ${section}`);
   };
-
+  
+  // Navegación desde el menú hamburguesa. Cierra el menú antes de cambiar de ruta
+  // y usa un flag para evitar múltiples clics seguidos.
   const handleMenuNavigation = async (section: string, route: string) => {
     if (isNavigating) return;
     
@@ -151,6 +168,7 @@ const InicioCursosEstudiante: React.FC = () => {
       setIsNavigating(false);
     }
   };
+  // Devuelve el ícono correspondiente según el nombre guardado en CourseData
   const getIconComponent = (iconName: string) => {
     switch (iconName) {
       case 'calculator-outline':
@@ -211,7 +229,8 @@ const InicioCursosEstudiante: React.FC = () => {
     </IonHeader>
   );
 
-  // Componente para tarjetas de curso
+  // Componente para tarjetas de curso, tarjetas individuales de curso: icono, nombre, código, descripción y barra de progreso.
+  // Diseño con mucha jerarquía visual para facilitar la lectura rápida.
   const CourseCard: React.FC<{ course: CourseData }> = ({ course }) => (
     <IonCard style={{ 
       margin: '16px 0', 
