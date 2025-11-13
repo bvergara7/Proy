@@ -1,3 +1,7 @@
+// Página de comunicación y retroalimentación del estudiante.
+// Permite expresar rápidamente estados (necesito ayuda, no entiendo, etc.)
+// y enviar mensajes escritos al docente o equipo de apoyo.
+
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import { 
@@ -10,6 +14,10 @@ import {
   settingsOutline, libraryOutline, chatbubblesOutline, helpCircleOutline
 } from 'ionicons/icons';
 
+
+// Estado interno para representar estados a traves de frases
+// que puede escoger el estudiante (necesito ayuda, no entiendo, etc.).
+
 interface CommunicationState {
   needsHelp: boolean;
   dontUnderstand: boolean;
@@ -21,8 +29,13 @@ interface CommunicationState {
 
 const ComunicacionPag: React.FC = () => {
   const history = useHistory();
+  // Controla qué ítem del menú lateral está seleccionado
   const [selectedTab, setSelectedTab] = useState<string>('comunicacion');
+  
+  // Flag para evitar múltiples navegaciones simultáneas desde el menú
   const [isNavigating, setIsNavigating] = useState(false);
+  
+  // Estado de las distintas opciones de comunicación rápida
   const [communicationState, setCommunicationState] = useState<CommunicationState>({
     needsHelp: false,
     dontUnderstand: false,
@@ -31,16 +44,24 @@ const ComunicacionPag: React.FC = () => {
     repeatPlease: false,
     understood: false
   });
-  
+
+
+  // Mensaje libre escrito por el estudiante con respecto al estado
   const [feedbackMessage, setFeedbackMessage] = useState<string>('');
+  // Control del IonAlert que se usa como confirmación/feedback
   const [showAlert, setShowAlert] = useState<boolean>(false);
   const [alertMessage, setAlertMessage] = useState<string>('');
-  
+
+  // Datos básicos del estudiante (estático / vacío)
   const studentData = {
     name: '',
     avatar: ''
   };
-
+  // Navegación centralizada del menú hamburguesa.
+  // Se encarga de:
+  // - Marcar pestaña seleccionada
+  // - Cerrar el menú
+  // - Redirigir a la ruta correspondiente
   const handleMenuNavigation = async (section: string, route: string) => {
     if (isNavigating) return;
     
