@@ -167,7 +167,7 @@ El archivo App.tsx actúa como el enrutador principal de la aplicación, definie
 
 2- En Visual Studio Code, descargar la extension de WebNative para poder utilizar Framework de Ionic junto con React.
 
-3- En caso de ser necesario (errores), instalar dependencias faltantes: 
+3- En caso de ser necesario (errores con las librerias), instalar dependencias faltantes: 
 npm install react react-dom @types/react @types/react-dom
 npm install react-router-dom @types/react-router-dom
 npm install @ionic/react ionicons
