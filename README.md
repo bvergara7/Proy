@@ -117,7 +117,7 @@ Estos fundamentos aseguran:
 
 ![React](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=flat-square)
 
-<img width="580" height="233" alt="image" src="https://github.com/user-attachments/assets/f5064e78-c4ef-49fa-9a1c-c338f6391fc1" />
+<img width="280" height="133" alt="image" src="https://github.com/user-attachments/assets/f5064e78-c4ef-49fa-9a1c-c338f6391fc1" />
 
 # Entorno de desarrollo
 
