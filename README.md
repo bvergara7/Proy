@@ -1,4 +1,4 @@
-<img width="892" height="30" alt="image" src="https://github.com/user-attachments/assets/2fe12912-0746-4e46-be55-a2fbb13510b8" />## INF4560 - Proyecto de Titulo - Entrega Software 
+## INF4560 - Proyecto de Titulo - Entrega Software 
 
 
 ## **Tema de Proyecto: Diseño de Experiencia de Usuario Centrado en Personas con Trastorno del Espectro Autista (TEA)**
@@ -179,7 +179,8 @@ npm install @ionic/react ionicons
 
 - Como se especifica en la imagen adjunta:
 
-<img width="794" height="225" alt="image" src="https://github.com/user-attachments/assets/4b161a23-9c02-4f13-adb6-14a4e783a0cd" />
+<img width="1029" height="227" alt="image" src="https://github.com/user-attachments/assets/0cc084e1-7ee9-4811-a080-2ef8f83aa04d" />
+
 
 
 
