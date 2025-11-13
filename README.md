@@ -1,4 +1,4 @@
-## INF4560 - Proyecto de Titulo - Entrega Software 
+<img width="892" height="30" alt="image" src="https://github.com/user-attachments/assets/2fe12912-0746-4e46-be55-a2fbb13510b8" />## INF4560 - Proyecto de Titulo - Entrega Software 
 
 
 ## **Tema de Proyecto: Diseño de Experiencia de Usuario Centrado en Personas con Trastorno del Espectro Autista (TEA)**
@@ -167,7 +167,15 @@ El archivo App.tsx actúa como el enrutador principal de la aplicación, definie
 
 2- En Visual Studio Code, descargar la extension de WebNative para poder utilizar Framework de Ionic junto con React.
 
-3- Ejecutar el proyecto en el cmd (Command Propmt) con el siguiente comando: npm run dev (asegurarse que este en la carpeta del proyecto denominada proytea)
+3- En caso de ser necesario, instalar dependencias: 
+npm install react react-dom @types/react @types/react-dom
+npm install react-router-dom @types/react-router-dom
+npm install @ionic/react ionicons
+------------------------------------------------------------------------------------------------------------------
+<img width="892" height="30" alt="image" src="https://github.com/user-attachments/assets/2bc4f38a-dd35-47dd-b6a3-a53c471f8895" />
+
+--------------------------------------------------------------------------------------------------------------------
+4- Ejecutar el proyecto en el cmd (Command Propmt) con el siguiente comando: npm run dev (asegurarse que este en la carpeta del proyecto denominada proytea)
 
 - Como se especifica en la imagen adjunta:
 
