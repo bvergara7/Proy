@@ -179,7 +179,8 @@ npm install @ionic/react ionicons
 
 - Como se especifica en la imagen adjunta:
 
-<img width="640" height="225" alt="image" src="https://github.com/user-attachments/assets/32215b70-3ab9-40d8-9dbe-cb2dfe690eeb" />
+<img width="794" height="225" alt="image" src="https://github.com/user-attachments/assets/4b161a23-9c02-4f13-adb6-14a4e783a0cd" />
+
 
 
 4- Acceder al link del localhost.
