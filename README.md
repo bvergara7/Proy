@@ -183,8 +183,8 @@ npm install @ionic/react ionicons
 
 
 
-
-4- Acceder al link del localhost.
+--------------------------------------------------------------------------------------------------------------------
+5- Acceder al link del localhost.
 
 
 
