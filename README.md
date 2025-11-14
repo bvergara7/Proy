@@ -78,7 +78,7 @@ Lo referente a los requerimientos no funcionales del sistema van asociados a la 
 
 El enfoque de estas funcionalidades es el de mantener predictibilidad y continuidad dentro de la experiencia del estudiante TEA.
 
-# **Fundamentos del Diseño**
+# **Principios de Diseño**
 
 El desarrollo del frontend se basó en principios derivados de:
 
