@@ -695,7 +695,7 @@ const ProgramacionCursoPag: React.FC = () => {
             lineHeight: '1.5',
             textAlign: 'center'
           }}>
-            <p>1. Lee el contenido de física con atención</p>
+            <p>1. Lee el contenido de programación con atención</p>
             <p>2. Utiliza los controles de audio o video si lo prefieres</p>
             <p>3. Haz clic en las gráficas para verlas en detalle</p>
             <p>4. Avanza al siguiente concepto cuando estés listo</p>
